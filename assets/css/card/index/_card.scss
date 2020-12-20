@@ -15,7 +15,7 @@ a {
     transform: translatex(10px);
   }
 
-  & + a {
+  &+a {
     margin-top: 16px;
   }
 
@@ -26,7 +26,7 @@ a {
     object-fit: cover;
   }
 
-  div{
+  div {
     margin-left: 16px;
 
     strong {
@@ -39,10 +39,10 @@ a {
       color: $detail-color-3;
     }
 
-    i {
-      size: 70px;
-      color: $detail-color-4;
-      margin-left: auto;
-    }
+  }
+  i {
+    size: 70px;
+    color: $detail-color-4;
+    margin-left: auto;
   }
 }

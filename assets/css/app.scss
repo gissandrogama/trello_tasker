@@ -7,7 +7,6 @@ $detail-color-4: #F07067;
 $error-color: $detail-color-4;
 $gradient-detail: linear-gradient(-45deg, $detail-color, $bg-color);
 
-// #6A7BFF #F07067 #30B7FF #13141F
 @import "global";
 @import "card/index/index";
 @import "card/info/info";

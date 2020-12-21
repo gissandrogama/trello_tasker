@@ -9,7 +9,7 @@ defmodule TrelloTasker.Shared.Services.Trello do
 
   def get_card(card_id) do
     {:ok, response} =
-      ("#{card_id}?list=true&key=" <> @key <> "&token=" <> @token)
+      ("#{card_id}?list=true&key=" <> "#{@key}" <> "&token=" <> "#{@token}")
       |> get()
 
     status = response.status
@@ -34,7 +34,7 @@ defmodule TrelloTasker.Shared.Services.Trello do
 
   def get_comments(card_id) do
     {:ok, response} =
-      ("#{card_id}/actions?commentCard&key=" <> @key <> "&token=" <> @token)
+      ("#{card_id}/actions?commentCard&key=" <> "#{@key}" <> "&token=" <> "#{@token}")
       |> get()
 
     status = response.status

@@ -1,12 +1,13 @@
 @import "../node_modules/nprogress/nprogress.css";
 $bg-color: #FFF;
-$detail-color: #ffe9ce;
-$detail-color-2: #4e51bf;
-$detail-color-3: #24252a;
-$detail-color-4: #ff92a4;
+$detail-color: #30B7FF;
+$detail-color-2: #6A7BFF;
+$detail-color-3: #13141F;
+$detail-color-4: #F07067;
 $error-color: $detail-color-4;
 $gradient-detail: linear-gradient(-45deg, $detail-color, $bg-color);
 
+// #6A7BFF #F07067 #30B7FF #13141F
 @import "global";
 @import "card/index/index";
 @import "card/info/info";

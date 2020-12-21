@@ -15,16 +15,17 @@ a {
     transform: translatex(10px);
   }
 
-  &+a {
-    margin-top: 16px;
-  }
-
   img {
     width: 64px;
     height: 64px;
     border-radius: 50%;
     object-fit: cover;
   }
+
+  &+a {
+    margin-top: 16px;
+  }
+
 
   div {
     margin-left: 16px;
@@ -40,6 +41,7 @@ a {
     }
 
   }
+
   i {
     size: 70px;
     color: $detail-color-4;

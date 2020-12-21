@@ -23,6 +23,11 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
+# configures trello key and token
+config :trello_tasker, :trello,
+    key: System.get_env("TRELLO_KEY"),
+    token: System.get_env("TRELLO_TOKEN")
+
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
